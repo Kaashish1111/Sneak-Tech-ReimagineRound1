@@ -95,7 +95,7 @@ body {
 #nav-prt1 ul li:hover #submenu1{
     display:block;
     position: absolute;
-    background-color:rgb(233, 230, 230);
+    background-color:rgba(233, 230, 230,0.9);
     height:250px;
     width: 200px;
     margin-top: 15px;
