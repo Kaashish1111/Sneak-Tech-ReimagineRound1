@@ -47,7 +47,7 @@ body {
     align-items: center;
 
     justify-content: space-between;
-    background-color:#e3dede;
+    background-color:#e5dede;
 }
 
 #nav img {
@@ -82,7 +82,7 @@ body {
 #nav-prt1 ul{
     display:inline-flex;
     list-style:none;
-    color:black;
+    color:rgb(22, 21, 21);
 }
 #nav-prt1 a{
     text-decoration:none ;
