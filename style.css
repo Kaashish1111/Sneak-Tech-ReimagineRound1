@@ -88,7 +88,7 @@ body {
     text-decoration:none ;
     color:rgb(0, 0, 0);
 }
-#active,#nav-prt1 ul li:hover{
+#nav-prt1 ul li:hover{
     background: rgb(233, 230, 230);
     border-radius:10px;
 }
