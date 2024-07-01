@@ -23,3 +23,4 @@ function menuBarClose(){
     menuBox.style.display="none";
     menutick=false;
 }
+
