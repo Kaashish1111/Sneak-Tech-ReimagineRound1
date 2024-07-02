@@ -39,13 +39,13 @@ body {
     padding: 115px;
     font-style: normal;
     background-color: #f0f4f5;
-    
+
 }
 
 .featured-section h2 {
     text-align: left;
     margin-bottom: 20px;
-    
+
 }
 
 .featured-items {
@@ -67,7 +67,7 @@ body {
 
 .featured-info {
     padding: 10px 0;
-    
+
 }
 
 .featured-info h3 {
@@ -128,7 +128,7 @@ body {
 }
 
 #nav-prt1 {
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
