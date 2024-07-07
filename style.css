@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
@@ -47,7 +47,7 @@ body {
     align-items: center;
 
     justify-content: space-between;
-    background-color:#e3dede;
+    background-color: #e3dede;
 }
 
 #nav img {
@@ -112,7 +112,6 @@ body {
     justify-content: space-evenly;
     flex-direction: column;
     color: rgb(60, 58, 58)
-
 }
 
 #left h5 {
@@ -254,7 +253,7 @@ footer {
     font-size: 19px;
     color: #ffffff;
     font-weight: bolder;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .footbox p {
@@ -312,7 +311,7 @@ footer {
     font-size: 18px;
     color: #ffffff;
     padding: 0px 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #footleft p {
@@ -965,8 +964,8 @@ footer {
     overflow-x: auto;
     white-space: nowrap;
     padding: 0px;
-    background-color:  #f0f4f5;
-    border: 1px solid  #f0f4f5;
+    background-color: #f0f4f5;
+    border: 1px solid #f0f4f5;
 }
 
 .scroll-container img {
@@ -980,6 +979,7 @@ footer {
 .scroll-container img:last-child {
     margin-right: 0;
 }
+
 .featured-section {
     padding: 115px;
     font-style: normal;
@@ -1030,4 +1030,230 @@ footer {
     color: black;
     font-weight: bold;
     font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    /* Hide video on mobile devices */
+    #bg_video {
+        display: none;
+    }
+
+    #nav-prt1 {
+        display: none;
+    }
+
+    /* Adjust navigation padding */
+    #nav {
+        padding: 0 10px;
+    }
+
+    /* Adjust logo size */
+    #nav img {
+        height: 40px;
+    }
+
+    /* Adjust navigation padding */
+    #nav {
+        padding: 0 5px;
+        /* Reduced padding */
+    }
+
+    /* Adjust logo size */
+    #nav img {
+        height: 40px;
+    }
+
+    /* Adjust navigation links margin */
+    #nav-prt1 p {
+        margin: 0 5px;
+    }
+
+    /* Adjust navigation icons margin */
+    #nav-prt2 i {
+        margin-right: 10px;
+    }
+
+    /* Center content in the middle */
+    #content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #left {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Adjust content text */
+    #left h5 {
+        font-size: 1rem;
+    }
+
+    #left h1 {
+        font-size: 2rem;
+    }
+
+    #left p {
+        font-size: 0.9rem;
+        margin: 10px;
+    }
+
+    #left button {
+        display: inline-block;
+        margin: 10px auto 0 auto;
+        /* Center button and add margin */
+    }
+}
+
+
+@media (max-width: 768px) {
+#more_content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#left, #right {
+    width: 100%;
+    padding: 20px;
+}
+.elem, .shoebox {
+    width: 90%;
+    margin: 10px auto;
+}
+}
+
+.featured-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.featured-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.featured-item {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.featured-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.featured-info {
+    padding: 20px;
+}
+
+.featured-info h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.featured-info a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 600px) {
+    .featured-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .featured-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .featured-info a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+#shop_by_sport{
+    font-size: large;
+     background-color:  #c7cecf;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 90px
+      ;padding-bottom: 90px;
+}
+
+
+.sbp{
+    padding-left: 12px;font-size: 30px;
+}
+
+.scroll-container img{
+    padding :10px;
+}
+
+.scroll-container img div{
+     padding :10px;
+}
+
+@media (max-width: 768px) {
+    #shop_by_sport{
+        display: none;
+    }
 }
